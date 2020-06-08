@@ -1,46 +1,46 @@
 class Translation(object):
-    START_TEXT = """Hello,
-This is a Telegram Rename Bot!
-
-<b>Please send me any Telegram file and reply to that file to /rename New Name.mkv</b>
-
-/help for more details.."""
-    RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
-    ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me🤓.**"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
-    NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
-    SAVED_CUSTOM_THUMB_NAIL = "Custom File thumbnail saved. This image will be used in the File."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
-    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
-    SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
+    START_TEXT = """❖￤مرحبا بك  في بوت تعديل أسماء الملفات 
+<b>❖￤يرجى ارسال اي ملف تريد تعديل اسمه وثم الرد عليه بالامر التالي :
+/rename اسم الملف </b>
+❖￤استخدم الامر /help للتفاصيل...."""
+    RENAME_403_ERR = "المعذرة انت غير مسموح لك بتعديل اسم هذا الملف."
+    ABS_TEXT = " رجاء لا تكون اناني "
+    UPGRADE_TEXT = "<b>👉 اصنع بوتك الخاص هنا.. </b>  /help للتفاصيل"
+    DOWNLOAD_START = "جاري التحميل"
+    UPLOAD_START = "جاري الرفع"
+    RCHD_TG_API_LIMIT = "تم التحميل في  {} ثانيه.\حجم الملف : {}\nالمعذرة أنا لا أستطيع تحميل الملفات أكبر من  1.5GB بسبب قيود تلقرام ."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "**شكرا لاستخدامي🤓.**"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "تم التحميل في  {} ثواني.\تم الرفع في {} ثواني."
+    NOT_AUTH_USER_TEXT = "الرجاء /upgrade اشتراكك."
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "تحديد حجم الملف: {}. المستخدمين المجانيين يستطيعوا تحميل فقط : {}\الرجاء  /upgrade اشتراكك.\اذا ترغب في الاشتراك راسلنا  <a href='https://telegram.me/haidarkrar'>فتى غولة عجيب</a>"
+    SAVED_CUSTOM_THUMB_NAIL = "تم حفظ الصوره كصوره المعاينه للملف. هذه الصوره سوف تظهر على الملف."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ تم حذف صورة المعاينه بنجاح .."
+    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ تم حذف ملف الوسائط..بنجاح."
+    SAVED_RECVD_DOC_FILE = "تم تحميل الملف بنجاح."
     CUSTOM_CAPTION_UL_FILE = " "
-    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
-    USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    HELP_USER = """Hai am Rename bot..
+    NO_CUSTOM_THUMB_NAIL_FOUND = "لا توجد صورة معاينه محفوظه."
+    USER_ADDED_TO_DB = "المستخدم <a href='tg://user?id={}'>{}</a> اضيف الى  {} حتى {}."
+    HELP_USER = """مرحبا انا بوت تعديل اسماء الملفات .
     
-1. Send me any Telegram File.
-2. Reply to that message to /rename new name.extension.
+1. ارسل لي اي ملف الى هنا.
+2. رد على الملف الي رسلته بالامر التالي /rename اسم الملف .
    
-<b>👉 Create own Clone Bot :</b> 👉 <a href="https://youtu.be/yYHrSnuYXpA">Diploy</a>
+<b>👉 اصنع بوتك الخاص هنا:</b> 👉 <a href="https://t.me/haidarkrar">فتى غولة عجيب</a>
 
 --------
 
-Support Group : @InFoTelGroup
-© @SpEcHlDe @TGBotsZ"""
-    REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to `/rename New Name.extension` with custom thumbnail support.."
-    ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
-    FREE_USER_LIMIT_Q_SZE = """Cannot Process.
-Free users only 1 request per 30 minutes.
-/upgrade or Try 1800 seconds later."""
-    IFLONG_FILE_NAME = """File Name limit allowed by Telegram is {alimit} characters.
-The given file name has {num} characters.
+قناتنا : @zwamlallaith
+© مطور البوت @haidarkrar"""
+    REPLY_TO_DOC_FOR_RENAME_FILE = "رد على الملف الذي تريد اعادة تسميته بالامر :
+ `/rename اسم الملف`.."
+    ABUSIVE_USERS = "انت غير مسموح لك باستخدام هذا البوت 
+اذا تعتقد ان هذا خطأ اضغط /check لالغاء التقييد عليك ."
+    FREE_USER_LIMIT_Q_SZE = """لا استطيع العمل .
+المستخدمين المجانيين يستطيعوا تعديل اي ملف كل ٣٠ دقيقه 
+اشترك  /upgrade او حاول بعد نص ساعه."""
+    IFLONG_FILE_NAME = """الحد الاقصى لاسم الملف من تلقرام  {alimit} حرف فقط.
+الملف الحالي يحتوي على  {num} حرف.
 
-<b>Essays Not allowed in Telegram file name!</b>
-©️ <code>@ReNameBot</code>
-Please short your file name and try again!"""
+<b>غير مسموح بهذا الاسم في قوانين تلقرام!</b>
+©️ <code>@haidarkrar</code>
+الرجاء تقليل عدد الحروف للملف"""
